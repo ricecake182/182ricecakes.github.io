@@ -1,0 +1,74 @@
+/*corner of header */
+#logo {
+	height: 50px;
+	width: auto;
+}
+/*sidebar */
+.sidebar {
+	width: 20%;
+	position: fixed;
+}
+.sidenav-container {
+	margin: 10px;
+}
+
+.sidebar-item a {
+    padding: 8px 8px 8px 10px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s
+}
+
+.sidebar-item a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+/*body grid*/
+#content {
+	width: 100%;
+	position: relative;
+	padding-left: 250px;
+	left: 0;
+}
+
+
+.body-container {
+	width: 80%;
+	position: absolute;
+/*	display: grid;
+*/}
+.sub-container {
+	display: inline-block;
+	width:  280px;
+ 	margin: 25px;
+}
+.thumb-container {
+	height: 200px; 
+	width:  280px;
+	overflow: hidden;
+	margin-bottom: 12px;	
+}
+
+/* project thumbnails */
+.proj-thumb {
+	max-width: 100%;
+}
+/*darken the thumbnail*/
+.proj-thumb:hover {
+	opacity: 120%;
+}
+
+.body-container {
+	display: grid;
+}
+
+/*back to the top link*/
+.back-to-top {
+	margin: 0 auto;
+}
+.up-arrow {
+	width: 20px;
+	height: auto;
+}
